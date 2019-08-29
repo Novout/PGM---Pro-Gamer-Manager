@@ -1,28 +1,20 @@
-# PGM-Project
+# PGM - Pro Gamer Manager
 
-# PGM - Pro Gamer MANAGER
-
- ![](https://img.shields.io/badge/C++-17-orange.svg) ![](https://img.shields.io/badge/CMake-3.14.0-blue.svg)
-
-
-Project to retake the game "Pro Gamer Manager" in CLI
+![](https://img.shields.io/badge/HTML-5-red.svg) ![](https://img.shields.io/badge/CSS-3-lightblue.svg) ![](https://img.shields.io/badge/JavaScript-ES6-yellow.svg) ![](https://img.shields.io/badge/Ultralight-1.0-purple.svg) ![](https://img.shields.io/badge/C%2B%2B-17-blue.svg) ![](https://img.shields.io/badge/Spdlog-1-lightgrey.svg) ![](https://img.shields.io/badge/cli.h-1-grey)
 
 ## Project structure
  ```
     .
-    ├── bin                      # Binaries will be here.
-    ├── lib                      # Libraries will be here.
-    ├── src                      # Source folder.
-    |   └── CMakeLists.txt       # Project CMake build script.
-    └── CMakeLists.txt           # Main CMake build script.
+    ├── packager                        # Packager of project
+    |   └── CMakeLists.txt              # Ultralight dependencies
+    ├── samples                         # General file
+    |   └── PGM - Pro Gamer Manager     # PGM file
+    |       └── assets                  # Assets web application
+    |       └── src                     # Source of project
+    |       └── CMakeLists.txt          # CMake of src
+    |   └── CMakeLists.txt              # CMake dependencies of project
+    ├── CMakeLists.txt                  # CMake general 
 ```
-### How to Use
- - Utilizing CMake, Execute the following commands
- ``` 
-     git clone https://github.com/Novout/PGM-Project.git
-     cd PGM-Project
-     mkdir build
-     cd build
-     cmake .. -G" COMPILER " OR cmake .. -G"MinGW Makefiles" -DCMAKE_SH="CMAKE_SH-NOTFOUND"  # Read the CMake docs and select a generator
-     make && make install                               # Now run your preferred compiler
-```
+
+ > NOTE: CMake build of Ultralight >> https://gitlab.com/thiago-rezende
+
